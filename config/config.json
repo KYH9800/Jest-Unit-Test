@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "3115dbsgur!",
+    "database": "layered_architecture_pattern_db",
+    "host": "express-database.c1bn2jbbfqhy.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "3115dbsgur!",
+    "database": "layered_architecture_pattern_db_test",
+    "host": "express-database.c1bn2jbbfqhy.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
