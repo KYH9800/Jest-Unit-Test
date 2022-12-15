@@ -73,7 +73,7 @@ class PostService {
   };
 
   deletePost = async (postId, password) => {
-    console.log('postId, password: ', postId, password);
+    // console.log('postId, password: ', postId, password);
     const findPost = await this.postRepository.findPostById(postId);
     if (!findPost) throw new Error("Post doesn't exist");
 

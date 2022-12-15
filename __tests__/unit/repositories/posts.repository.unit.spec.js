@@ -55,8 +55,7 @@ describe('Layered Architecture Pattern Posts Repository Unit Test', () => {
       createPostParams.title,
       createPostParams.content
     );
-    console.log('createPostData: ', createPostData);
-
+    // console.log('createPostData: ', createPostData);
     // createPostData는 postsModel의 create를 실행한 결과값을 바로 반환한 값인지 테스트합니다.
     expect(createPostData).toBe('create Return String');
 

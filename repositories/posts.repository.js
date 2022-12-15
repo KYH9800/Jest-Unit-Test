@@ -17,14 +17,6 @@ class PostRepository {
   };
 
   createPost = async (nickname, password, title, content) => {
-    console.log(
-      'nickname, password, title, content: ',
-      nickname,
-      password,
-      title,
-      content
-    );
-    console.log('여기');
     const createPostData = await this.postModel.create({
       nickname,
       password,
